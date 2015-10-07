@@ -9,6 +9,7 @@ if ('identification' === $_GET['page']
     && isset($_SESSION['identifie']) && true === $_SESSION['identifie'] 
     && isset($_GET['tokken']) && $_GET['tokken'] == $_SESSION['tokken']) {
 
+    //If the user is well authenticated, we redirect him to the content
     header('Location: index.php');
 }
 

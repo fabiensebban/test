@@ -1,7 +1,7 @@
 <?php 
 session_start();
 require 'include/connexion.php';
-
+//Commentaire de test
 /**
  * Vérification des paramètres pour l'identification
  * et identification si tout est conforme
